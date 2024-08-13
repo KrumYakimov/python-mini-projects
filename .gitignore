@@ -10,7 +10,12 @@ env/
 build/
 dist/
 
+
+
 # Logs and temp files
 *.log
 *.tmp
+
+# Ignore IntelliJ IDEA project files
+.idea/
 
