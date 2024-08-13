@@ -40,7 +40,6 @@ class HashTable:
         return {pair.value for pair in self.array}
 
     def hash(self, key) -> int:
-        # return sum(ord(char) for char in key) % self.capacity
         return hash(key) % self.capacity
 
     def get(self, key, default=None):
