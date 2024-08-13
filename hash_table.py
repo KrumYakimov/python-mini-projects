@@ -126,21 +126,21 @@ class HashTable:
         return "{" + ", ".join(pairs) + "}"
 
 
-# table = HashTable()
-#
-# table["Name"] = "George"
-# table["Age"] = 27
-# table["City"] = "Sofia"
-# table["Occupation"] = "Data Scientist"
-# table["Education"] = "Mathematics"
-# table["Courses"] = "Python"
-# table["Languages"] = "Bulgarian"
-# table["Interest"] = "Mountain Biking"
-#
-#
-# print(table)
-# print(table.get("Name"))
-# print(table["Age"])
-# print(len(table))
-# print("Age" in table)
+table = HashTable()
+
+table["Name"] = "George"
+table["Age"] = 27
+table["City"] = "Sofia"
+table["Occupation"] = "Data Scientist"
+table["Education"] = "Mathematics"
+table["Courses"] = "Python"
+table["Languages"] = "Bulgarian"
+table["Interest"] = "Mountain Biking"
+
+
+print(table)
+print(table.get("Name"))
+print(table["Age"])
+print(len(table))
+print("Age" in table)
 
